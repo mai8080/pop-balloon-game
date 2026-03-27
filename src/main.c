@@ -5,7 +5,7 @@
 
 #include "raylib.h"
 #include <stdio.h>
-
+/*constants*/
 #define SCREEN_WIDTH  800
 #define SCREEN_HEIGHT 600
 #define NUM_BALLOONS  10
@@ -18,7 +18,7 @@
 #define SKY_BOTTOM  CLITERAL(Color){ 176, 224, 230, 255 } /* red, gree, blue, alpha (trancperancy) */
 
 /*
- * Returns true if the circle (balloon) touches the triangle (player).
+ * This function Returns true if the circle (balloon) touches the triangle (player).
  * We check: is the circle's centre inside the triangle, or does the circle touches any of the three edges?
  */
 static bool check_balloon_touches_player(Vector2 balloon_centre, float radius,
@@ -44,8 +44,8 @@ int main(void)
     InitAudioDevice(); 
     
     /* Load sounds and music */
-    Music bg_music = LoadMusicStream("music.mp3"); /* this is the background music */
-    Sound pop_sound = LoadSound("pop.wav"); /* this is the sound when a balloon is popped */
+    Music bg_music = LoadMusicStream("music.mp3"); /* this is the background music . it will open through a stream and not loaded in the memory*/
+    Sound pop_sound = LoadSound("pop.wav"); /* this is the sound when a balloon is popped. because it short soud so it will loaded in the memory */
     Sound gameover_sound = LoadSound("gameover.wav"); /* this is the sound when the game is over */
     
     /* Start the background music */
@@ -125,7 +125,7 @@ int main(void)
             {
                 balloon_pos_y[i] -= BALLOON_SPEED; /* move balloon up by BALLOON_SPEED pixels */
 
-                /* Balloon reached the top of the screen => game over */
+                /* Balloon reached the top of the screen => game over هذا البارت خاص بالبالون لما توصل التوب بينتهي القيم */
                 if (balloon_pos_y[i] + BALLOON_RADIUS < 0)
                 {
                     is_game_over = true;
@@ -139,8 +139,10 @@ int main(void)
                 Vector2 balloon_centre = { balloon_pos_x[i], balloon_pos_y[i] };
                 if (check_balloon_touches_player(balloon_centre, BALLOON_RADIUS, tri_left, tri_bottom, tri_right))
                 {
-                    popped_count++;
+                    popped_count++;/*هذا هو عداد البالونات التي تم نفاذها */
                     PlaySound(pop_sound); /* Start the pop sound */
+
+                    /*هذا الجزء خاص اعاده البالون من جديد لتستمر اللعبه*/
                     balloon_pos_x[i] = (float)(GetRandomValue((int)BALLOON_RADIUS, (int)(GetScreenWidth() - BALLOON_RADIUS)));
                     balloon_pos_y[i] = (float)GetScreenHeight() + BALLOON_RADIUS + (float)GetRandomValue(0, (int)(BALLOON_SPACING * 4));
                     balloon_colour[i] = colours_for_balloons[GetRandomValue(0, numBalloonColors - 1)];

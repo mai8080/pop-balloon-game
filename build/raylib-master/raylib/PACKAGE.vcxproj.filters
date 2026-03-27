@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\N.abouhajar\Documents\May\principlase\game\build\CMakeFiles\fe83ca8eba955f17d217fa79aed22b2c\PACKAGE_force.rule">
+    <CustomBuild Include="C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\build\CMakeFiles\16be0bdc174bc6fd1c8934bb0e8b50db\PACKAGE_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{036FD9D8-E57D-3639-8BA1-F32F9089F80F}</UniqueIdentifier>
+      <UniqueIdentifier>{A9E72BCE-868B-3E86-9D5B-DAC86A46F511}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

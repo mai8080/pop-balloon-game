@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
@@ -22,9 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4510F884-E603-30F6-8DC8-190B1A52F613}</ProjectGuid>
+    <ProjectGuid>{542DD803-9738-3FFB-BA14-89417F0B7DCB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>update_mappings</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -33,22 +33,22 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -105,15 +105,15 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\N.abouhajar\Documents\May\principlase\game\build\CMakeFiles\d9ac4cd31cf3dac30a606beab6753291\update_mappings.rule">
+    <CustomBuild Include="C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\build\CMakeFiles\f814de1d1f9ac95c21738ccf3be3323d\update_mappings.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-cd C:\Users\N.abouhajar\Documents\May\principlase\game\raylib-master\src\external\glfw\src
+cd "C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\raylib-master\src\external\glfw\src"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/N.abouhajar/Documents/May/principlase/game/raylib-master/src/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/mai19/Desktop/24مارس/Principle of Programming-balloon/pop baloon game/game/raylib-master/src/external/glfw/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -122,17 +122,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\N.abouhajar\Documents\May\principlase\game\build\raylib-master\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\build\raylib-master\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-cd C:\Users\N.abouhajar\Documents\May\principlase\game\raylib-master\src\external\glfw\src
+cd "C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\raylib-master\src\external\glfw\src"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/N.abouhajar/Documents/May/principlase/game/raylib-master/src/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/mai19/Desktop/24مارس/Principle of Programming-balloon/pop baloon game/game/raylib-master/src/external/glfw/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -141,17 +141,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\N.abouhajar\Documents\May\principlase\game\build\raylib-master\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\build\raylib-master\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-cd C:\Users\N.abouhajar\Documents\May\principlase\game\raylib-master\src\external\glfw\src
+cd "C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\raylib-master\src\external\glfw\src"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/N.abouhajar/Documents/May/principlase/game/raylib-master/src/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/mai19/Desktop/24مارس/Principle of Programming-balloon/pop baloon game/game/raylib-master/src/external/glfw/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -160,17 +160,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\N.abouhajar\Documents\May\principlase\game\build\raylib-master\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\build\raylib-master\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-cd C:\Users\N.abouhajar\Documents\May\principlase\game\raylib-master\src\external\glfw\src
+cd "C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\raylib-master\src\external\glfw\src"
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/N.abouhajar/Documents/May/principlase/game/raylib-master/src/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/mai19/Desktop/24مارس/Principle of Programming-balloon/pop baloon game/game/raylib-master/src/external/glfw/CMake/GenerateMappings.cmake" mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -179,17 +179,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\N.abouhajar\Documents\May\principlase\game\build\raylib-master\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\build\raylib-master\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\N.abouhajar\Documents\May\principlase\game\raylib-master\src\external\glfw\src\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\raylib-master\src\external\glfw\src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/N.abouhajar/Documents/May/principlase/game/raylib-master/src/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/mai19/Desktop/24مارس/Principle of Programming-balloon/pop baloon game/game/raylib-master/src/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/N.abouhajar/Documents/May/principlase/game -BC:/Users/N.abouhajar/Documents/May/principlase/game/build --check-stamp-file C:/Users/N.abouhajar/Documents/May/principlase/game/build/raylib-master/raylib/external/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/mai19/Desktop/24مارس/Principle of Programming-balloon/pop baloon game/game" "-BC:/Users/mai19/Desktop/24مارس/Principle of Programming-balloon/pop baloon game/game/build" --check-stamp-file "C:/Users/mai19/Desktop/24مارس/Principle of Programming-balloon/pop baloon game/game/build/raylib-master/raylib/external/glfw/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -197,12 +197,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\N.abouhajar\Documents\May\principlase\game\raylib-master\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\N.abouhajar\Documents\May\principlase\game\build\raylib-master\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\raylib-master\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\build\raylib-master\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/N.abouhajar/Documents/May/principlase/game/raylib-master/src/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/mai19/Desktop/24مارس/Principle of Programming-balloon/pop baloon game/game/raylib-master/src/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/N.abouhajar/Documents/May/principlase/game -BC:/Users/N.abouhajar/Documents/May/principlase/game/build --check-stamp-file C:/Users/N.abouhajar/Documents/May/principlase/game/build/raylib-master/raylib/external/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/mai19/Desktop/24مارس/Principle of Programming-balloon/pop baloon game/game" "-BC:/Users/mai19/Desktop/24مارس/Principle of Programming-balloon/pop baloon game/game/build" --check-stamp-file "C:/Users/mai19/Desktop/24مارس/Principle of Programming-balloon/pop baloon game/game/build/raylib-master/raylib/external/glfw/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -210,12 +210,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\N.abouhajar\Documents\May\principlase\game\raylib-master\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\N.abouhajar\Documents\May\principlase\game\build\raylib-master\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\raylib-master\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\build\raylib-master\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/N.abouhajar/Documents/May/principlase/game/raylib-master/src/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/mai19/Desktop/24مارس/Principle of Programming-balloon/pop baloon game/game/raylib-master/src/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/N.abouhajar/Documents/May/principlase/game -BC:/Users/N.abouhajar/Documents/May/principlase/game/build --check-stamp-file C:/Users/N.abouhajar/Documents/May/principlase/game/build/raylib-master/raylib/external/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/mai19/Desktop/24مارس/Principle of Programming-balloon/pop baloon game/game" "-BC:/Users/mai19/Desktop/24مارس/Principle of Programming-balloon/pop baloon game/game/build" --check-stamp-file "C:/Users/mai19/Desktop/24مارس/Principle of Programming-balloon/pop baloon game/game/build/raylib-master/raylib/external/glfw/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -223,12 +223,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\N.abouhajar\Documents\May\principlase\game\raylib-master\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\N.abouhajar\Documents\May\principlase\game\build\raylib-master\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\raylib-master\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\build\raylib-master\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/N.abouhajar/Documents/May/principlase/game/raylib-master/src/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/mai19/Desktop/24مارس/Principle of Programming-balloon/pop baloon game/game/raylib-master/src/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/N.abouhajar/Documents/May/principlase/game -BC:/Users/N.abouhajar/Documents/May/principlase/game/build --check-stamp-file C:/Users/N.abouhajar/Documents/May/principlase/game/build/raylib-master/raylib/external/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/mai19/Desktop/24مارس/Principle of Programming-balloon/pop baloon game/game" "-BC:/Users/mai19/Desktop/24مارس/Principle of Programming-balloon/pop baloon game/game/build" --check-stamp-file "C:/Users/mai19/Desktop/24مارس/Principle of Programming-balloon/pop baloon game/game/build/raylib-master/raylib/external/glfw/src/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -236,23 +236,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\N.abouhajar\Documents\May\principlase\game\raylib-master\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\N.abouhajar\Documents\May\principlase\game\build\raylib-master\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\raylib-master\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\build\raylib-master\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\N.abouhajar\Documents\May\principlase\game\raylib-master\src\external\glfw\src\mappings.h.in">
+    <None Include="C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\raylib-master\src\external\glfw\src\mappings.h.in">
     </None>
-    <None Include="C:\Users\N.abouhajar\Documents\May\principlase\game\raylib-master\src\external\glfw\CMake\GenerateMappings.cmake">
+    <None Include="C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\raylib-master\src\external\glfw\CMake\GenerateMappings.cmake">
     </None>
-    <None Include="C:\Users\N.abouhajar\Documents\May\principlase\game\build\raylib-master\raylib\external\glfw\src\CMakeFiles\update_mappings">
+    <None Include="C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\build\raylib-master\raylib\external\glfw\src\CMakeFiles\update_mappings">
     </None>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\N.abouhajar\Documents\May\principlase\game\build\ZERO_CHECK.vcxproj">
-      <Project>{B4C4A790-BF27-30C2-9217-029AC0F8E38B}</Project>
+    <ProjectReference Include="C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\build\ZERO_CHECK.vcxproj">
+      <Project>{C1E77D3C-DC0E-3E51-B4D5-4E0D4AE80A82}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

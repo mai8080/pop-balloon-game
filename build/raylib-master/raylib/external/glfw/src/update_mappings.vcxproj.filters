@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\N.abouhajar\Documents\May\principlase\game\build\CMakeFiles\d9ac4cd31cf3dac30a606beab6753291\update_mappings.rule">
+    <CustomBuild Include="C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\build\CMakeFiles\f814de1d1f9ac95c21738ccf3be3323d\update_mappings.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\N.abouhajar\Documents\May\principlase\game\raylib-master\src\external\glfw\src\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\raylib-master\src\external\glfw\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\N.abouhajar\Documents\May\principlase\game\raylib-master\src\external\glfw\src\mappings.h.in">
+    <None Include="C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\raylib-master\src\external\glfw\src\mappings.h.in">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="C:\Users\N.abouhajar\Documents\May\principlase\game\raylib-master\src\external\glfw\CMake\GenerateMappings.cmake" />
-    <None Include="C:\Users\N.abouhajar\Documents\May\principlase\game\build\raylib-master\raylib\external\glfw\src\CMakeFiles\update_mappings" />
+    <None Include="C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\raylib-master\src\external\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Users\mai19\Desktop\24مارس\Principle of Programming-balloon\pop baloon game\game\build\raylib-master\raylib\external\glfw\src\CMakeFiles\update_mappings" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{036FD9D8-E57D-3639-8BA1-F32F9089F80F}</UniqueIdentifier>
+      <UniqueIdentifier>{A9E72BCE-868B-3E86-9D5B-DAC86A46F511}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{CD3B89E0-807F-34CC-9DD6-08F8E9126595}</UniqueIdentifier>
+      <UniqueIdentifier>{3A3BF7C8-5687-3814-B39B-E23E38E1561F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
